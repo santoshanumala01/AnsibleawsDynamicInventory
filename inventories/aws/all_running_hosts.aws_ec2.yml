@@ -3,6 +3,9 @@ regions:
   - ap-south-1
 filters:
   "instance-state-name": running
+   tag:Environment:
+    - dev
+    - db
 strict_permissions: False
 hostnames:
   - tag:Name
