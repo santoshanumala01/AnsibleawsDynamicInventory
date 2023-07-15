@@ -3,6 +3,7 @@ regions:
   - ap-south-1
 filters:
   "instance-state-name": running
+  "tag:type": managed
 strict_permissions: False
 hostnames:
   - tag:Name
